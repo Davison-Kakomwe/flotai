@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/flotai.db
+data/uploads/
+.streamlit/credentials.toml
