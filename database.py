@@ -9,6 +9,7 @@ import sqlite3
 from pathlib import Path
 
 DB_PATH = Path(__file__).parent / "data" / "flotai.db"
+DB_PATH.parent.mkdir(parents=True, exist_ok=True)  # ensures the 'data' folder exists, on any machine/server
 
 
 def get_connection():
